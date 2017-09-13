@@ -1,0 +1,9 @@
+#!/bin/sh
+#$ -cwd
+#$ -j y
+#$ -S /bin/bash
+
+export LD_PRELOAD=/usr/lib/gcc/x86_64-redhat-linux/4.4.7/libgomp.so
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/lijun/flann1.84/build/lib
+module load matlab
+matlab -r -nodesktop -nosplash "start"
