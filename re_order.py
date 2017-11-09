@@ -11,10 +11,10 @@ def natural_sort(l):
     return sorted(l, key = alphanum_key)
 
 file1 = open('/media/llj/storage/msr-vtt/models/data/baseline_test.txt','r')
-file2 = open('/media/llj/storage/msr-vtt/models/data/multitask-reinforce_test.txt','r')
+file2 = open('/media/llj/storage/msr-vtt/models/data/.txt','r')
 
 file3 = open('/media/llj/storage/msr-vtt/models/data/baseline.txt','w')
-file4 = open('/media/llj/storage/msr-vtt/models/data/multitask-reinforce.txt','w')
+file4 = open('/media/llj/storage/msr-vtt/models/data/mult.txt','w')
 
 sents1 = []
 sents2 = []
