@@ -22,7 +22,7 @@ from collections import defaultdict
 
 
 batch_size = 32
-video_test_sent_file = '/home/llj/caffe/examples/spice/coco-caption-master/msrvtt/multitask-reinforce_test.txt'
+video_test_sent_file = '/home/llj/caffe/examples/spice/coco-caption-master/msrvtt/_test.txt'
 video_ref_sent_file = '/home/llj/caffe/examples/spice/coco-caption-master/msrvtt/sent_test_file'
 
 def score_all(ref, hypo):
