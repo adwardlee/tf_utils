@@ -1,0 +1,1 @@
+tar -cf - directory/ | xz -9e --threads=8 -c - > tarfile.tar.xz 
