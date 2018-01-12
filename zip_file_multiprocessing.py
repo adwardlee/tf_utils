@@ -44,10 +44,6 @@ def main():
         file_name1[k].append(file_name[i])
     pool.map(zip_worker, function_input)
     # writing files to a zipfile
-    with ZipFile('my_python_files.zip','w') as zip:
-        # writing each file one by one
-        for file in file_paths:
-            zip.write(file)
  
     print('All files zipped successfully!')        
  
